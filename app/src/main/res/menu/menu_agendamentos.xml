@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_home"
+        android:title="@string/home"
+        app:showAsAction="always"
+        android:onClick="home"
+        />
+
+    <item
+       android:id="@+id/solSalas"
+       android:title="@string/agendar_sala"
+       android:onClick="agSala"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/solMateriais"
+        android:title="@string/materiais"
+        app:showAsAction="ifRoom"
+        android:onClick="solMateriais"
+        />
+    <item
+        android:id="@+id/menu_consultar"
+        android:title="@string/consultar"
+        app:showAsAction="always"
+        />
+</menu>

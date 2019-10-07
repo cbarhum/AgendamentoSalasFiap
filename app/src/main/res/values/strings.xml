@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">AgendamentoSalasFiap</string>
+    <string name="agendamento_de_salas_fiap">Agendamento de Salas - FIAP</string>
+    <string name="sistema_para_agendamento_e_alerta_de_salas">Sistema para agendamento e alerta de salas</string>
+    <string name="senha">Senha:</string>
+    <string name="autenticar">Autenticar</string>
+    <string name="n_o_tem_acesso_registre_se">Não tem acesso? Registre-se</string>
+    <string name="matr_cula">Matrícula:</string>
+    <string name="cadastro_de_usu_rio">Cadastro de Usuário</string>
+    <string name="cadastrar">cadastrar</string>
+    <string name="agendamento_de_sala">Agendamento de Sala</string>
+    <string name="solicita_o_de_materiais">Solicitação de Materiais</string>
+    <string name="acompanhar_solicita_es_de_sala">Acompanhar Solicitações de Sala</string>
+    <string name="acompanhar_solicita_es_de_material">Acompanhar Solicitações de Material</string>
+    <string name="desconectar">Desconectar</string>
+    <string name="professor">Professor</string>
+    <string name="material">Material</string>
+    <string name="data">Data</string>
+    <string name="sala">Sala</string>
+    <string name="periodo">Periodo</string>
+    <string name="submeter">Submeter</string>
+    <string name="parceiro_clientes">Parceiro/clientes?</string>
+    <string name="quantidade_de_alunos">Quantidade de Alunos</string>
+    <string name="escolha_a_data">Escolha a Data</string>
+    <string name="consultar">Consultar</string>
+    <string name="materiais">Materiais</string>
+    <string name="agendar_sala">Agendar Sala</string>
+    <string name="home">Home</string>
+    <string-array name="professor_array">
+        <item>Allen</item>
+        <item>Humberto</item>
+        <item>Camila</item>
+        <item>Helder</item>
+        <item>Cabral</item>
+        <item>Gabriela</item>
+        <item>Lucas</item>
+        <item>Torrente</item>
+        <item>Ezequiel</item>
+        <item>Agessandro</item>
+    </string-array>
+
+    <string-array name="materiais_array">
+        <item>Projetor</item>
+        <item>Computador - Desktop</item>
+        <item>Notebook</item>
+        <item>Microfone</item>
+        <item>Caixa de Som</item>
+        <item>Iluminacao Especial</item>
+        <item>Canetas para Quadro</item>
+        <item>Flip Chart</item>
+    </string-array>
+
+    <string-array name="parcCli_array">
+        <item>Aula Normal</item>
+        <item>Cliente</item>
+        <item>Parceiro</item>
+        <item>Visita Externa</item>
+    </string-array>
+
+    <string-array name="salas_array">
+        <item>201</item>
+        <item>202</item>
+        <item>203</item>
+        <item>204</item>
+        <item>301</item>
+        <item>302</item>
+        <item>303</item>
+        <item>304</item>
+        <item>401</item>
+        <item>402</item>
+        <item>403</item>
+        <item>404</item>
+        <item>501</item>
+        <item>502</item>
+        <item>503</item>
+        <item>504</item>
+        <item>601</item>
+        <item>602</item>
+        <item>603</item>
+        <item>604</item>
+    </string-array>
+
+    <string-array name="periodos_array">
+        <item>Manha</item>
+        <item>Tarde</item>
+        <item>Noite</item>
+    </string-array>
+
+</resources>
+

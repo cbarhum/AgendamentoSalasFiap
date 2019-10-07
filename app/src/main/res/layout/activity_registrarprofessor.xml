@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/titulo"
+        style="@style/PadraoAgendamento"
+        android:text="@string/agendamento_de_salas_fiap"
+        android:padding="20dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/subtitulo"
+        style="@style/PadraoAgendamento"
+        android:text="@string/cadastro_de_usu_rio"
+        android:textSize="12sp" />
+
+
+    <EditText
+        android:id="@+id/edtMatricula"
+        android:text="@string/matr_cula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:padding="16dp"
+        />
+
+    <EditText
+        android:id="@+id/edtSenha"
+        android:text="@string/senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        />
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        style="@style/BotoesRosa"
+        android:padding="16dp"
+        android:text="@string/cadastrar"
+        android:onClick="cadastrar"/>
+
+</LinearLayout>

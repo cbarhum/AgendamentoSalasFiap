@@ -1,0 +1,96 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/titulo"
+        style="@style/PadraoAgendamento"
+        android:text="@string/agendamento_de_salas_fiap"
+        android:padding="20dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/subtitulo"
+        style="@style/PadraoAgendamento"
+        android:text="@string/sistema_para_agendamento_e_alerta_de_salas"
+        android:textSize="12sp" />
+
+    <android.support.v7.widget.ActionMenuView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/professor"/>
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/professor_spinner" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sala"/>
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/salas_spinner" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/data"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/escolha_a_data"
+        android:background="#000"
+        android:textColor="#fff"
+        android:inputType="datetime"
+        android:onClick="mostraDatas"
+        android:id="@+id/btnData"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/periodo"/>
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/periodos_spinner" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/parceiro_clientes"/>
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/parceiroCliente_spinner" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/quantidade_de_alunos"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtQtdeAlunos"
+        android:inputType="number"
+        android:text="0"/>
+
+    <Button
+        android:id="@+id/btnSubmeter"
+        android:text="@string/submeter"
+        style="@style/BotoesRosa"
+        android:onClick="Submeter"/>
+
+</LinearLayout>
